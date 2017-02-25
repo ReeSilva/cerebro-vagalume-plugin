@@ -2,6 +2,7 @@
 const Vagalume = require('vagalume');
 const vagalumeApi = new Vagalume();
 const co = require('co');
+const icon = require('./assets/vagalumeThumb.jpg');
 
 const vagalumeApiKey = '387980fe1f207402d2b0cd1bba3267cf';
 
@@ -14,6 +15,7 @@ const plugin = co.wrap(function* plugin ({term, display, actions, hide}) {
     
     display({
       id: 'vagalume',
+      icon: icon,
       title: `Procurando por ${match[1]} no Vagalume...`
     })
     
@@ -32,6 +34,7 @@ const plugin = co.wrap(function* plugin ({term, display, actions, hide}) {
       
       display({
         title: `${doc.band} - ${doc.title}`,
+        icon: icon,
         subtitle: doc.url,
         getPreview: () => (
           `<div>
@@ -47,6 +50,7 @@ const plugin = co.wrap(function* plugin ({term, display, actions, hide}) {
 
 module.exports = {
   name: 'Procure músicas no Vagalume',
+  icon: icon,
   keyword: 'vagalume',
   fn: plugin
 }
