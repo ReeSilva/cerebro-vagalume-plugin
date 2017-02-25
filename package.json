@@ -1,13 +1,12 @@
 {
-  "name": "cerebro-plugin",
-  "version": "0.0.2",
-  "description": "",
+  "name": "cerebro-cifraclub-plugin",
+  "version": "1.0.0",
+  "description": "Plugin do app Cerebro para encontrar cifras no Cifraclub",
   "license": "MIT",
-  "repository": "KELiON/cerebro-plugin",
+  "repository": "reesilva/cerebro-cifraclub-plugin",
   "author": {
-    "name": "Alexandr Subbotin",
-    "email": "kelionweb@gmail.com",
-    "url": "asubbotin.ru"
+    "name": "Renato Biancalana da Silva",
+    "email": "renato.biancalana.silva@gmail.com"
   },
   "engines": {
     "node": ">=4"
@@ -20,7 +19,9 @@
   "main": "dist/index.js",
   "keywords": [
     "cerebro",
-    "cerebro-plugin"
+    "cerebro-plugin",
+    "cerebro-cifraclub-plugin",
+    "cifraclub"
   ],
   "devDependencies": {
     "babel-cli": "^6.18.0",
