@@ -1,7 +1,7 @@
 {
   "name": "cerebro-vagalume-plugin",
   "version": "1.0.0",
-  "description": "Plugin do app Cerebro para encontrar cifras no Vagalume",
+  "description": "Plugin do app Cerebro para encontrar letras no Vagalume",
   "license": "MIT",
   "repository": "reesilva/cerebro-vagalume-plugin",
   "author": {
@@ -21,7 +21,8 @@
     "cerebro",
     "cerebro-plugin",
     "cerebro-vagalume-plugin",
-    "vagalume"
+    "vagalume",
+    "lyrics"
   ],
   "devDependencies": {
     "babel-cli": "^6.18.0",
@@ -35,5 +36,10 @@
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "2.1.0-beta.27"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "file-loader": "^0.10.1",
+    "vagalume": "0.0.5"
   }
 }
