@@ -1,41 +1,18 @@
-# Cerebro Plugin
+# Cerebro Vagalume Plugin
 
-> It is boilerplate to create plugins for [Cerebro app](http://www.cerebroapp.com)
+> Este é um plugin para encontrar letras de música no [Vagalume](https://www.vagalume.com.br)
 
-## Usage
-* Clone this repo to your machine;
-* Edit `package.json` – `name`, `description`, `author` and `repository` fields;
-* Run `npm install` – you are ready to build your plugin!
+## Uso
+* No Cerebro, digite `vagalume` ou `Vagalume` mais algum texto para encontrar músicas relacionadas;
+* Selecione para ver um preview, clique ou dê enter para ir para a página da letra.
 
-## Debugging your plugin
-* Open [Cerebo app](http://www.cerebroapp.com);
-* Enter `settings` and open preview for Cerebro Settings;
-* Turn on developer mode;
-* Now you have development submenu in tray menu. Choose reload and DevTools (main) to open developer tools.
+![Screenshot do plugin Vagalume](https://image.ibb.co/gFG5Va/screenshot.png)
 
-![](screenshot.png)
+## Relacionados
 
-Put your plugin directory to `~/Library/Application\ Support/Cerebro/plugins/`. Easiest way to do it is to use symbolic links with built-in command:
-```
-npm run debug
-```
+* [Cerebro](http://github.com/KELiON/cerebro) – repositório principal do app Cerebro;
+* [Vagalume](https://www.vagalume.com.br) – Site que é fonte para as letras de música;
 
+## Licença
 
-> On windows use [cygwin](https://www.cygwin.com/) or [git bash](https://git-scm.com/download/win) instead of cmd.exe and `./scripts/debug` command insttead of `npm run debug`
-
-Or if you running Cerebro from source code:
-```
-npm run debug -- dev
-```
-
-## Documentation
-Use Cerebro [documentation](https://github.com/KELiON/cerebro/blob/master/docs/plugins.md) for plugins.
-
-## Related
-
-* [Cerebro](http://github.com/KELiON/cerebro) – main repo for Cerebro app;
-* [cerebro tools](http://github.com/KELiON/cerebro-tools) – package with tools to simplify package creation;
-
-## License
-
-MIT © [Alexandr Subbotin](http://asubbotin.ru)
+MIT © Renato Biancalana da Silva
