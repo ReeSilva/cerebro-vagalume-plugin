@@ -1,0 +1,7 @@
+extends: airbnb-base
+node: true
+mocha: true
+globals:
+  fetch: true 
+plugins:
+  - import
